@@ -1,4 +1,4 @@
-from customtkinter import*
+from customtkinter import*  #install customtkinter first
 
 win = CTk()
 win.geometry("400x400")
@@ -18,3 +18,7 @@ click_butt.pack()
 
 
 win.mainloop()
+#"py -m venv myenv" - to create venv
+#"myenv\Scripts\activate" - to activate venv
+#"deactivate" - to deactive
+#"auto-py-to-exe" - to convert .py to .exe
